@@ -1,0 +1,60 @@
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Benjamin Fever\CLionProjects\CGRA_Assignment_4" -B "C:\Users\Benjamin Fever\CLionProjects\CGRA_Assignment_4\cmake-build-debug"
+-- The CXX compiler identification is GNU 11.2.0
+-- The C compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found OpenGL: opengl32   
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+CMake Deprecation Warning at ext/glfw/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at ext/glfw/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test _GLFW_HAS_DEP
+-- Performing Test _GLFW_HAS_DEP - Success
+-- Performing Test _GLFW_HAS_ASLR
+-- Performing Test _GLFW_HAS_ASLR - Success
+-- Performing Test _GLFW_HAS_64ASLR
+-- Performing Test _GLFW_HAS_64ASLR - Success
+-- Using Win32 for window creation
+-- Using WGL for context creation
+CMake Deprecation Warning at ext/glew-1.10.0/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug
