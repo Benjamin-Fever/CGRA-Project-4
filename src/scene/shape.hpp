@@ -48,6 +48,13 @@ public:
 // the intersect method for each new Shape.
 //-------------------------------------------------------------
 
-// YOUR CODE GOES HERE
-// ...
+class Plane : public Shape {
+private:
+    glm::vec3 m_center;
+    glm::vec3 m_halfsize;
 
+public:
+    Plane(const glm::vec3 &c, float hs) : m_center(c), m_halfsize(hs) { }
+    Plane(const glm::vec3 &c, const glm::vec3 &hs) : m_center(c), m_halfsize(hs) { }
+    virtual RayIntersection intersect(const Ray &ray) override;
+};
