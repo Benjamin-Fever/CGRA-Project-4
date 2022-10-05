@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/gcc.exe 
@@ -23,12 +23,15 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_1c64a && [1/2] Building CXX object CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_055d2/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_055d2.dir\build.make CMakeFiles/cmTC_055d2.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_055d2.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE   -v -o CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE
 Target: x86_64-w64-mingw32
@@ -36,8 +39,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1c64a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccHlxDTe.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_055d2.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccHwWLIv.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -64,13 +67,17 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/'
- as -v -o CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccHlxDTe.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\'
+ as -v -o CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccHwWLIv.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_1c64a.exe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_055d2.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_055d2.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_055d2.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_055d2.dir/objects.a @CMakeFiles\cmTC_055d2.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_055d2.dir/objects.a -Wl,--no-whole-archive -o cmTC_055d2.exe -Wl,--out-implib,libcmTC_055d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE
 COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -81,9 +88,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c64a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c64a.'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1c64a.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1c64a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c64a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c64a.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_055d2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_055d2.'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_055d2.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\cmTC_055d2.dir/objects.a --no-whole-archive --out-implib libcmTC_055d2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_055d2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_055d2.'
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -112,9 +120,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_1c64a && [1/2] Building CXX object CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_055d2/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_055d2.dir\build.make CMakeFiles/cmTC_055d2.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_055d2.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE   -v -o CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -122,8 +133,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/']
-  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1c64a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccHlxDTe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\']
+  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_055d2.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccHwWLIv.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -150,8 +161,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccHlxDTe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccHwWLIv.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/]
@@ -163,8 +174,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_1c64a.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_055d2.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_055d2.exe]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_055d2.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_055d2.dir/objects.a]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_055d2.dir/objects.a @CMakeFiles\cmTC_055d2.dir\objects1.rsp]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE  -v -Wl --whole-archive CMakeFiles\cmTC_055d2.dir/objects.a -Wl --no-whole-archive -o cmTC_055d2.exe -Wl --out-implib libcmTC_055d2.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -183,14 +198,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c64a.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c64a.']
-  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1c64a.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1c64a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_055d2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_055d2.']
+  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_055d2.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\cmTC_055d2.dir/objects.a --no-whole-archive --out-implib libcmTC_055d2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_1c64a.exe] ==> ignore
+    arg [cmTC_055d2.exe] ==> ignore
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -201,9 +216,11 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [-L/mingw/lib] ==> dir [/mingw/lib]
-    arg [CMakeFiles/cmTC_1c64a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_055d2.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_1c64a.dll.a] ==> ignore
+    arg [libcmTC_055d2.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -252,9 +269,12 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_c1feb && [1/2] Building C object CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_384d8/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_384d8.dir\build.make CMakeFiles/cmTC_384d8.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_384d8.dir/CMakeCCompilerABI.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe   -v -o CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj -c "C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -262,8 +282,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c1feb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccJyPFm4.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_384d8.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\cc4hCcMq.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -284,13 +304,17 @@ GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/'
- as -v -o CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccJyPFm4.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\'
+ as -v -o CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\cc4hCcMq.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_c1feb.exe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_384d8.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_384d8.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_384d8.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_384d8.dir/objects.a @CMakeFiles\cmTC_384d8.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_384d8.dir/objects.a -Wl,--no-whole-archive -o cmTC_384d8.exe -Wl,--out-implib,libcmTC_384d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -301,9 +325,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c1feb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c1feb.'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_c1feb.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c1feb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c1feb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c1feb.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_384d8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_384d8.'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_384d8.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\cmTC_384d8.dir/objects.a --no-whole-archive --out-implib libcmTC_384d8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_384d8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_384d8.'
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -326,9 +351,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_c1feb && [1/2] Building C object CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_384d8/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_384d8.dir\build.make CMakeFiles/cmTC_384d8.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_384d8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe   -v -o CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj -c "C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -336,8 +364,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/']
-  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c1feb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\ccJyPFm4.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\']
+  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\share\cmake-3.22\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_384d8.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\BENJAM~1\AppData\Local\Temp\cc4hCcMq.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -358,8 +386,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccJyPFm4.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\cc4hCcMq.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/]
@@ -371,8 +399,12 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_c1feb.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_384d8.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_384d8.exe]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_384d8.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_384d8.dir/objects.a]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_384d8.dir/objects.a @CMakeFiles\cmTC_384d8.dir\objects1.rsp]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_384d8.dir/objects.a -Wl --no-whole-archive -o cmTC_384d8.exe -Wl --out-implib libcmTC_384d8.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -391,14 +423,14 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c1feb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c1feb.']
-  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_c1feb.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c1feb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_384d8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_384d8.']
+  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_384d8.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\cmTC_384d8.dir/objects.a --no-whole-archive --out-implib libcmTC_384d8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_c1feb.exe] ==> ignore
+    arg [cmTC_384d8.exe] ==> ignore
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -409,9 +441,11 @@ Parsed C implicit link information from above output:
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [-L/mingw/lib] ==> dir [/mingw/lib]
-    arg [CMakeFiles/cmTC_c1feb.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_384d8.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_c1feb.dll.a] ==> ignore
+    arg [libcmTC_384d8.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -461,9 +495,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting C OpenMP compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_03e51 && [1/2] Building C object CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ebd44/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ebd44.dir\build.make CMakeFiles/cmTC_ebd44.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebd44.dir/OpenMPTryFlag.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe   -fopenmp -v -o CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c"
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -471,8 +508,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_03e51.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccU7bPTx.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\cmTC_ebd44.dir\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccnLAydf.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -493,13 +530,17 @@ GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/'
- as -v -o CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccU7bPTx.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\'
+ as -v -o CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccnLAydf.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.'
-[2/2] Linking C executable cmTC_03e51.exe
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.'
+Linking C executable cmTC_ebd44.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ebd44.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ebd44.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ebd44.dir/objects.a @CMakeFiles\cmTC_ebd44.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_ebd44.dir/objects.a -Wl,--no-whole-archive -o cmTC_ebd44.exe -Wl,--out-implib,libcmTC_ebd44.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ebd44.dir\linklibs.rsp
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -511,17 +552,21 @@ gcc version 11.2.0 (GCC)
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
 Reading specs from C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03e51.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03e51.'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03e51.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_03e51.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03e51.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03e51.'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ebd44.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ebd44.'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ebd44.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib @C:\Users\BENJAM~1\AppData\Local\Temp\ccxKBUaB -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ebd44.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ebd44.'
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_03e51 && [1/2] Building C object CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj]
+  ignore line: [Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ebd44/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ebd44.dir\build.make CMakeFiles/cmTC_ebd44.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ebd44.dir/OpenMPTryFlag.c.obj]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe   -fopenmp -v -o CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -529,8 +574,8 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/']
-  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_03e51.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccU7bPTx.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\']
+  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\cmTC_ebd44.dir\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccnLAydf.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -551,8 +596,8 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccU7bPTx.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccnLAydf.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/]
@@ -564,8 +609,12 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.']
-  ignore line: [[2/2] Linking C executable cmTC_03e51.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_ebd44.dir\OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_ebd44.exe]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ebd44.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ebd44.dir/objects.a]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ebd44.dir/objects.a @CMakeFiles\cmTC_ebd44.dir\objects1.rsp]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\cmTC_ebd44.dir/objects.a -Wl --no-whole-archive -o cmTC_ebd44.exe -Wl --out-implib libcmTC_ebd44.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\cmTC_ebd44.dir\linklibs.rsp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -585,14 +634,14 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
   ignore line: [Reading specs from C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_03e51.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_03e51.']
-  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_03e51.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_03e51.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ebd44.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ebd44.']
+  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ebd44.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib @C:\Users\BENJAM~1\AppData\Local\Temp\ccxKBUaB -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_03e51.exe] ==> ignore
+    arg [cmTC_ebd44.exe] ==> ignore
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
@@ -601,23 +650,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [-L/mingw/lib] ==> dir [/mingw/lib]
-    arg [CMakeFiles/cmTC_03e51.dir/OpenMPTryFlag.c.obj] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_03e51.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lgdi32] ==> lib [gdi32]
-    arg [-lwinspool] ==> lib [winspool]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-lole32] ==> lib [ole32]
-    arg [-loleaut32] ==> lib [oleaut32]
-    arg [-luuid] ==> lib [uuid]
-    arg [-lcomdlg32] ==> lib [comdlg32]
-    arg [-ladvapi32] ==> lib [advapi32]
+    arg [@C:\Users\BENJAM~1\AppData\Local\Temp\ccxKBUaB] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lmingwthrd] ==> lib [mingwthrd]
     arg [-lmingw32] ==> lib [mingw32]
@@ -653,16 +686,19 @@ Parsed C OpenMP implicit link information from above output:
   collapse library dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/lib]
   collapse library dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib]
   collapse library dir [/mingw/lib] ==> [/MinGW/lib]
-  implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;gomp;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit libs: [gomp;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32]
   implicit objs: []
   implicit dirs: [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib;/MinGW/lib]
   implicit fwks: []
 
 
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_ec602 && [1/2] Building CXX object CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7f54e/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7f54e.dir\build.make CMakeFiles/cmTC_7f54e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f54e.dir/OpenMPTryFlag.cpp.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE   -fopenmp -v -o CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp"
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE
 Target: x86_64-w64-mingw32
@@ -670,8 +706,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_ec602.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccoDw5pi.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\cmTC_7f54e.dir\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccl0IlBd.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -698,13 +734,17 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/'
- as -v -o CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccoDw5pi.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\'
+ as -v -o CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccl0IlBd.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.'
-[2/2] Linking CXX executable cmTC_ec602.exe
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_7f54e.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7f54e.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7f54e.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_7f54e.dir/objects.a @CMakeFiles\cmTC_7f54e.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE  -fopenmp -v -Wl,--whole-archive CMakeFiles\cmTC_7f54e.dir/objects.a -Wl,--no-whole-archive -o cmTC_7f54e.exe -Wl,--out-implib,libcmTC_7f54e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7f54e.dir\linklibs.rsp
 Using built-in specs.
 COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE
 COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -716,17 +756,21 @@ gcc version 11.2.0 (GCC)
 COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;/mingw/lib/../lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../;/mingw/lib/
 Reading specs from C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ec602.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ec602.'
- C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ec602.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_ec602.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ec602.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ec602.'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7f54e.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_7f54e.'
+ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7f54e.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib @C:\Users\BENJAM~1\AppData\Local\Temp\ccoDVbRs -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7f54e.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_7f54e.'
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_ec602 && [1/2] Building CXX object CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj]
+  ignore line: [Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7f54e/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7f54e.dir\build.make CMakeFiles/cmTC_7f54e.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7f54e.dir/OpenMPTryFlag.cpp.obj]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE   -fopenmp -v -o CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -734,8 +778,8 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/']
-  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_ec602.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccoDw5pi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\']
+  ignore line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_MT -D_REENTRANT -U_REENTRANT C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\cmTC_7f54e.dir\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\Users\BENJAM~1\AppData\Local\Temp\ccl0IlBd.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -762,8 +806,8 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccoDw5pi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj C:\Users\BENJAM~1\AppData\Local\Temp\ccl0IlBd.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/]
@@ -775,8 +819,12 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_ec602.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\cmTC_7f54e.dir\OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_7f54e.exe]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7f54e.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7f54e.dir/objects.a]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_7f54e.dir/objects.a @CMakeFiles\cmTC_7f54e.dir\objects1.rsp]
+  ignore line: [C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE  -fopenmp -v -Wl --whole-archive CMakeFiles\cmTC_7f54e.dir/objects.a -Wl --no-whole-archive -o cmTC_7f54e.exe -Wl --out-implib libcmTC_7f54e.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\cmTC_7f54e.dir\linklibs.rsp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\G__~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -796,14 +844,14 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
   ignore line: [/mingw/lib/]
   ignore line: [Reading specs from C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ec602.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ec602.']
-  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ec602.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_ec602.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7f54e.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_7f54e.']
+  link line: [ C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7f54e.exe C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -L/mingw/lib/../lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -L/mingw/lib @C:\Users\BENJAM~1\AppData\Local\Temp\ccoDVbRs -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_ec602.exe] ==> ignore
+    arg [cmTC_7f54e.exe] ==> ignore
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
@@ -812,24 +860,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [-L/mingw/lib] ==> dir [/mingw/lib]
-    arg [CMakeFiles/cmTC_ec602.dir/OpenMPTryFlag.cpp.obj] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_ec602.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lgdi32] ==> lib [gdi32]
-    arg [-lwinspool] ==> lib [winspool]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-lole32] ==> lib [ole32]
-    arg [-loleaut32] ==> lib [oleaut32]
-    arg [-luuid] ==> lib [uuid]
-    arg [-lcomdlg32] ==> lib [comdlg32]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lstdc++] ==> lib [stdc++]
+    arg [@C:\Users\BENJAM~1\AppData\Local\Temp\ccoDVbRs] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lmingwthrd] ==> lib [mingwthrd]
     arg [-lmingw32] ==> lib [mingw32]
@@ -863,25 +894,41 @@ Parsed CXX OpenMP implicit link information from above output:
   collapse library dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/lib]
   collapse library dir [C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib]
   collapse library dir [/mingw/lib] ==> [/MinGW/lib]
-  implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;stdc++;gomp;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit libs: [gomp;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
   implicit objs: []
   implicit dirs: [C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib/gcc;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/lib;/MinGW/lib]
   implicit fwks: []
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_8d86e && [1/2] Building C object CMakeFiles/cmTC_8d86e.dir/CheckIncludeFile.c.obj
-[2/2] Linking C executable cmTC_8d86e.exe
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_03fe2/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_03fe2.dir\build.make CMakeFiles/cmTC_03fe2.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03fe2.dir/CheckIncludeFile.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe   -fopenmp  -o CMakeFiles\cmTC_03fe2.dir\CheckIncludeFile.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_03fe2.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_03fe2.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_03fe2.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_03fe2.dir/objects.a @CMakeFiles\cmTC_03fe2.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp  -Wl,--whole-archive CMakeFiles\cmTC_03fe2.dir/objects.a -Wl,--no-whole-archive -o cmTC_03fe2.exe -Wl,--out-implib,libcmTC_03fe2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_03fe2.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_f1f14 && [1/2] Building C object CMakeFiles/cmTC_f1f14.dir/src.c.obj
-[2/2] Linking C executable cmTC_f1f14.exe
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7cd4f/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7cd4f.dir\build.make CMakeFiles/cmTC_7cd4f.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cd4f.dir/src.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fopenmp  -o CMakeFiles\cmTC_7cd4f.dir\src.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_7cd4f.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7cd4f.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7cd4f.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_7cd4f.dir/objects.a @CMakeFiles\cmTC_7cd4f.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp  -Wl,--whole-archive CMakeFiles\cmTC_7cd4f.dir/objects.a -Wl,--no-whole-archive -o cmTC_7cd4f.exe -Wl,--out-implib,libcmTC_7cd4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7cd4f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -906,28 +953,52 @@ int main(void)
 }
 
 Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_e67b8 && [1/2] Building C object CMakeFiles/cmTC_e67b8.dir/src.c.obj
-[2/2] Linking C executable cmTC_e67b8.exe
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ec2fc/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ec2fc.dir\build.make CMakeFiles/cmTC_ec2fc.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec2fc.dir/src.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe -D_GLFW_HAS_DEP  -fopenmp -Wl,--nxcompat -o CMakeFiles\cmTC_ec2fc.dir\src.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_ec2fc.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ec2fc.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ec2fc.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ec2fc.dir/objects.a @CMakeFiles\cmTC_ec2fc.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\cmTC_ec2fc.dir/objects.a -Wl,--no-whole-archive -o cmTC_ec2fc.exe -Wl,--out-implib,libcmTC_ec2fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ec2fc.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_aaf2c && [1/2] Building C object CMakeFiles/cmTC_aaf2c.dir/src.c.obj
-[2/2] Linking C executable cmTC_aaf2c.exe
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f1f45/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f1f45.dir\build.make CMakeFiles/cmTC_f1f45.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1f45.dir/src.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe -D_GLFW_HAS_ASLR  -fopenmp -Wl,--dynamicbase -o CMakeFiles\cmTC_f1f45.dir\src.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_f1f45.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f1f45.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f1f45.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_f1f45.dir/objects.a @CMakeFiles\cmTC_f1f45.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\cmTC_f1f45.dir/objects.a -Wl,--no-whole-archive -o cmTC_f1f45.exe -Wl,--out-implib,libcmTC_f1f45.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f1f45.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
-Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe cmTC_a6752 && [1/2] Building C object CMakeFiles/cmTC_a6752.dir/src.c.obj
-[2/2] Linking C executable cmTC_a6752.exe
+Run Build Command(s):C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_64ba8/fast && C:/Users/BENJAM~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_64ba8.dir\build.make CMakeFiles/cmTC_64ba8.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64ba8.dir/src.c.obj
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe -D_GLFW_HAS_64ASLR  -fopenmp -Wl,--high-entropy-va -o CMakeFiles\cmTC_64ba8.dir\src.c.obj -c "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_64ba8.exe
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_64ba8.dir\link.txt --verbose=1
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_64ba8.dir/objects.a
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_64ba8.dir/objects.a @CMakeFiles\cmTC_64ba8.dir\objects1.rsp
+C:\Users\BENJAM~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\221592~1.27\bin\mingw\bin\gcc.exe  -fopenmp -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_64ba8.dir/objects.a -Wl,--no-whole-archive -o cmTC_64ba8.exe -Wl,--out-implib,libcmTC_64ba8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_64ba8.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:

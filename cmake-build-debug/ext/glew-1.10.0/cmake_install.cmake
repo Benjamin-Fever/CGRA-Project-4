@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/ext/glew-1.10.0
+# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/ext/glew-1.10.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

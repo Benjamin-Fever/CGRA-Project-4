@@ -59,12 +59,12 @@ namespace {
 }
 
 Application::Application(GLFWwindow *win) : m_window(win) {
-	
+	m_scene = Scene::cornellBoxScene();
 	// setup Camera
 	m_camera = std::make_unique<Camera>();
 
 	// setup default pathtracer
-	m_pathtracer = std::make_unique<SimplePathTracer>(&m_scene);
+	m_pathtracer = std::make_unique<CompletionPathTracer>(&m_scene);
 
 	// start at same size as window to minimize aliasing
 	int w = 0, h = 0;

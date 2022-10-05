@@ -48,30 +48,34 @@ vec3 CorePathTracer::sampleRay(const Ray &ray, int) {
 	//-------------------------------------------------------------
 
     RayIntersection intersect = m_scene->intersect(ray);
-    vec3 diffuse(0);
-    vec3 specular(0);
+    vec3 colour(0);
     if (!intersect.m_valid){ return { 0.3f, 0.3f, 0.4f }; } // Return bg on no intersect
-    for (int i = 0; i < m_scene->lights().size(); i++) {
-        auto light = m_scene->lights()[i];
-        diffuse += intersect.m_material->diffuse() * light->ambience();
-        if (!light->occluded(m_scene, intersect.m_position)) {
-            vec3 irradiance = light->irradiance(intersect.m_position);
-            vec3 incident = light->incidentDirection(intersect.m_position);
+    for (size_t i = 0; i < m_scene->lights().size(); i++) {
+        std::shared_ptr<Light> light = m_scene->lights().at(i);
+        vec3 diffuse = intersect.m_material->diffuse() * light->ambience();
 
-            float angle = glm::max(0.0f, dot(-incident, intersect.m_normal));
+        bool isOccluded = light->occluded(m_scene, intersect.m_position);
 
-            diffuse += irradiance * angle * intersect.m_material->diffuse();
+        float angle = glm::max(0.0f, dot(-light->incidentDirection(intersect.m_position), intersect.m_normal));
+        vec3 diffuse_reflect = light->irradiance(intersect.m_position) * intersect.m_material->diffuse() * angle;
 
-            vec3 reflect = glm::reflect(ray.direction, intersect.m_normal);
-            angle = glm::max(0.0f, dot(-incident, reflect));
-            angle = pow(angle, intersect.m_material->shininess());
+        vec3 reflect = glm::reflect(normalize(light->incidentDirection(intersect.m_position)), normalize(intersect.m_normal));
 
-            specular += irradiance * angle * intersect.m_material->specular();
-        }
+        angle = glm::max(0.0f, dot(  reflect, -ray.direction));
+        angle = pow(angle, intersect.m_material->shininess());
+        vec3 spec_reflect = light->irradiance(intersect.m_position) * angle * intersect.m_material->specular();
+
+
+        colour += diffuse + (isOccluded ? vec3(0):diffuse_reflect + spec_reflect);
     }
-	return diffuse + specular;
-}
 
+	return colour;
+}
+//outer_color = diffuse + specular;
+//if (depth > 1){
+//vec3 rec_colour = CompletionPathTracer::sampleRay(Ray(intersect.m_position, normalize(glm::reflect(light->incidentDirection(intersect.m_position), intersect.m_normal))), depth-2);
+//outer_color += rec_colour * intersect.m_material->specular();
+//}
 
 
 vec3 CompletionPathTracer::sampleRay(const Ray &ray, int depth) {
@@ -85,38 +89,34 @@ vec3 CompletionPathTracer::sampleRay(const Ray &ray, int depth) {
 	// the incoming light by the (1 - (1/shininess)).
 	//-------------------------------------------------------------
     RayIntersection intersect = m_scene->intersect(ray);
-    vec3 diffuse(0);
-    vec3 specular(0);
-    vec3 outer_color(0);
+    vec3 colour(0);
+    vec3 rec_colour(0);
     if (!intersect.m_valid){ return { 0.3f, 0.3f, 0.4f }; } // Return bg on no intersect
-    for (int i = 0; i < m_scene->lights().size(); i++){
-        auto light = m_scene->lights()[i];
-        diffuse += intersect.m_material->diffuse() * light->ambience();
-        if (light->occluded(m_scene, intersect.m_position)){ continue; }
-        vec3 irradiance = light->irradiance(intersect.m_position);
-        vec3 incident = light->incidentDirection(intersect.m_position);
+    for (size_t i = 0; i < m_scene->lights().size(); i++) {
+        std::shared_ptr<Light> light = m_scene->lights().at(i);
+        vec3 diffuse = intersect.m_material->diffuse() * light->ambience();
 
-        float angle = glm::max(0.0f, dot(-incident, intersect.m_normal));
+        bool isOccluded = light->occluded(m_scene, intersect.m_position);
 
-        diffuse += irradiance * angle * intersect.m_material->diffuse();
+        float angle = glm::max(0.0f, dot(-light->incidentDirection(intersect.m_position), intersect.m_normal));
+        vec3 diffuse_reflect = light->irradiance(intersect.m_position) * intersect.m_material->diffuse() * angle;
 
-        vec3 reflect = glm::reflect(ray.direction, intersect.m_normal);
-        angle = glm::max(0.0f, dot(-incident, reflect));
+        vec3 reflect = glm::reflect(normalize(light->incidentDirection(intersect.m_position)), normalize(intersect.m_normal));
+
+        angle = glm::max(0.0f, dot(  reflect, -ray.direction));
         angle = pow(angle, intersect.m_material->shininess());
-
-        specular += irradiance * angle * intersect.m_material->specular();
-        outer_color = diffuse + specular;
-        if (depth > 1){
-            vec3 rec_colour = CompletionPathTracer::sampleRay(Ray(intersect.m_position, normalize(glm::reflect(light->incidentDirection(intersect.m_position), intersect.m_normal))), depth-2);
-            outer_color += rec_colour * intersect.m_material->specular();
-        }
+        vec3 spec_reflect = light->irradiance(intersect.m_position) * angle * intersect.m_material->specular();
+        colour += diffuse;
+        if (!isOccluded){ colour += diffuse_reflect + spec_reflect; }
     }
-    return outer_color;
+    if (depth > 1){
+        rec_colour = CompletionPathTracer::sampleRay(Ray(intersect.m_position, normalize(glm::reflect(normalize(ray.direction), normalize(intersect.m_normal)))), depth-1);
+        colour += rec_colour * intersect.m_material->specular() * (1 - (1/ intersect.m_material->shininess()));
+    }
+
+    return colour;
 }
-//if (depth > 1){
-//    vec3 rec_colour = CompletionPathTracer::sampleRay(Ray(intersect.m_position, glm::reflect(light->incidentDirection(intersect.m_position), intersect.m_normal)), depth-1);
-//    outer_colour += rec_colour;
-//}
+
 
 
 vec3 ChallengePathTracer::sampleRay(const Ray &ray, int depth) {

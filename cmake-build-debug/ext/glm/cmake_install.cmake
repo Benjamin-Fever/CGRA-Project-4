@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/ext/glm
+# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/ext/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

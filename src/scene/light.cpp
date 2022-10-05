@@ -17,7 +17,7 @@ bool DirectionalLight::occluded(Scene *scene, const vec3 &point) const {
 	// so any object in the way would cause an occlusion.
 	//-------------------------------------------------------------
 
-    Ray r = Ray(point-(m_direction*0.01f), -m_direction);
+    Ray r = Ray(point, -m_direction);
     return scene->intersect(r).m_valid;
 }
 
@@ -38,7 +38,7 @@ bool PointLight::occluded(Scene *scene, const vec3 &point) const {
 	// Determine whether the given point is being occluded from
 	// this directional light by an object in the scene.
 	// Remember that point lights are somewhere in the scene and
-	// an occulsion has to occur somewhere between the light and 
+	// an occulsion has to occur somewhere between the light and
 	// the given point.
 	//-------------------------------------------------------------
     vec3 dir = point - m_position;
@@ -57,7 +57,6 @@ vec3 PointLight::incidentDirection(const vec3 &point) const {
 	// Return the direction of the incoming light (light to point)
 	//-------------------------------------------------------------
     vec3 dir = point - m_position;
-    if (length(dir) < 0){ return vec3(0); }
     return normalize(dir);
 }
 

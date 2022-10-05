@@ -66,7 +66,7 @@ RayIntersection Sphere::intersect(const Ray &ray) {
 	//-------------------------------------------------------------
 	// [Assignment 4] :
 	// Implement the intersection method for Sphere that returns
-	// a RayIntersection object with valid == false if the 
+	// a RayIntersection object with valid == false if the
 	// ray doesn't intersect and true otherwise. If true, then
 	// remember to fill out each feild in the object correctly:
 	// - m_valid : true if object is itersected
@@ -79,7 +79,7 @@ RayIntersection Sphere::intersect(const Ray &ray) {
     vec3 L = m_center - ray.origin;
     float tca = dot(L, ray.direction);
     float d2 = dot(L, L) - tca * tca;
-    float thc = sqrt(m_radius - d2);
+    float thc = sqrt(m_radius*m_radius-d2);
     float t0 = tca - thc;
     float t1 = tca + thc;
     intersect.m_valid = false;
@@ -93,9 +93,74 @@ RayIntersection Sphere::intersect(const Ray &ray) {
     return intersect;
 }
 
-RayIntersection Plane::intersect(const Ray &ray) {
-    RayIntersection intersection;
-    vec3 rel_origin = ray.origin - m_center;
-    return intersection;
 
+
+RayIntersection Plane::intersect(const Ray &ray) {
+    RayIntersection intersect;
+    float denom = dot(m_normal, ray.direction);
+    if (abs(denom) > 0.01) {
+        float t = dot( m_point - ray.origin, m_normal) / denom;
+        if (t >= 0){
+            intersect.m_valid = true;
+            intersect.m_distance = t;
+            intersect.m_position = ray.origin + intersect.m_distance * ray.direction;
+            intersect.m_normal = dot(ray.direction, m_normal) > 0 ? -m_normal : m_normal;
+            intersect.m_shape = this;
+        }
+    }
+    return intersect;
+}
+
+RayIntersection Disk::intersect(const Ray &ray) {
+    Plane m_plane = Plane(m_center, m_normal);
+    RayIntersection intersection = m_plane.intersect(ray);
+    if (intersection.m_valid) {
+        vec3 p = ray.origin + ray.direction * intersection.m_distance;
+        vec3 v = p - m_center;
+        float d2 = dot(v,v);
+        if (sqrt(d2) > m_radius){
+            intersection.m_valid = false;
+        }
+    }
+    intersection.m_normal *= -1;
+    return intersection;
+}
+
+RayIntersection Triangle::intersect(const Ray &ray) {
+    RayIntersection intersect;
+    vec3 v0v1 = m_corner2 - m_corner1;
+    vec3 v0v2 = m_corner3 - m_corner1;
+
+    vec3 N = cross(v0v1, v0v2);
+    float area2 = length(N);
+
+    float NdotRayDirection = dot(N, ray.direction);
+    if (abs(NdotRayDirection) < 0.01){ return intersect; }
+    float d = -dot(N, m_corner1);
+    float t = -(dot(N, ray.origin) + d) / NdotRayDirection;
+    if (t < 0) { return intersect; }
+    vec3 p = ray.origin + t * ray.direction;
+
+    vec3 c;
+    vec3 vp0 = p - m_corner1;
+    c = cross(v0v1, vp0);
+    if (dot(N, c) < 0) { return intersect; }
+
+    vec3 edge = m_corner3 - m_corner2;
+    vec3 vp1 = p - m_corner2;
+    c = cross(edge, vp1);
+    if (dot(N, c) < 0) { return intersect; }
+
+    edge = m_corner1 - m_corner3;
+    vec3 vp2 = p - m_corner3;
+    c = cross(edge, vp2);
+    if (dot(N, c) < 0) { return intersect; }
+
+    intersect.m_valid = true;
+    intersect.m_distance = t;
+    intersect.m_position = ray.origin + intersect.m_distance * ray.direction;
+    intersect.m_normal = glm::normalize(glm::cross(v0v1, v0v2));
+    intersect.m_shape = this;
+
+    return intersect;
 }

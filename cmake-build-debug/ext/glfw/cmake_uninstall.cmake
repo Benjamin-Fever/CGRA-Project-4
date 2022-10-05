@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/ext/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/ext/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/ext/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/ext/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug/ext/glfw/install_manifest.txt" files)
+file(READ "C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug/ext/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

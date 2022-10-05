@@ -1,4 +1,4 @@
-"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Benjamin Fever/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Benjamin Fever\CLionProjects\CGRA_Assignment_4" -B "C:\Users\Benjamin Fever\CLionProjects\CGRA_Assignment_4\cmake-build-debug"
+"C:\Users\Benjamin Fever\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4" -B "C:\Users\Benjamin Fever\CLionProjects\CGRA-Project-4\cmake-build-debug"
 -- The CXX compiler identification is GNU 11.2.0
 -- The C compiler identification is GNU 11.2.0
 -- Detecting CXX compiler ABI info
@@ -57,4 +57,4 @@ CMake Deprecation Warning at ext/glew-1.10.0/CMakeLists.txt:2 (cmake_minimum_req
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/cmake-build-debug
+-- Build files have been written to: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/cmake-build-debug

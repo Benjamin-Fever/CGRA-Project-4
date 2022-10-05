@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA_Assignment_4/src/cgra
+# Install script for directory: C:/Users/Benjamin Fever/CLionProjects/CGRA-Project-4/src/cgra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
