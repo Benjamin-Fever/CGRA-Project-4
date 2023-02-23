@@ -1,5 +1,5 @@
 <body>
-<h1>3D-Ray-Tracing</h1>
+<h1>3D Ray Tracing</h1>
 <p>
 <h2>Description</h2>
 This was a program for my computer graphics course CGRA251. In this assignment I covered how ray tracing works and how different materials and lighting react to it.
